@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
+    "dev": "nodemon -e ja,hbs app.js",
     "start": "node app.js"
-
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   "homepage": "https://github.com/joaoMiguelInacio/lab-express-basic-site#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "hbs": "^4.2.0",
     "nodemon": "^2.0.15"
   }
 }

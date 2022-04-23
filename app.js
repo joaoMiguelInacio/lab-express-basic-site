@@ -1,24 +1,29 @@
 const express =  require ('express');
+const hbs = require('hbs');
 
 const app = express();
+
+app.set('views', __dirname + '/views');
+app.set('view engine', 'hbs');
+
 
 app.use(express.static ('public'));
 
 app.get('/', (request, response) => {
 
-    response.sendFile(__dirname + '/views/index.html');
+    response.render('index');
 
 })
 
 app.get('/about', (request, response) => {
 
-    response.sendFile(__dirname + '/views/about.html');
+    response.render('about');
 
 })
 
 app.get('/works', (request, response) =>  {
 
-    response.sendFile(__dirname + '/views/works.html');
+    response.render('works');
 
 })
 
