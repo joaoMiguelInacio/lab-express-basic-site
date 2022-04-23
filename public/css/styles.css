@@ -36,7 +36,7 @@ nav ul {
 }
 
 nav li {
-    padding-right: 20px;
+    padding-right: 2rem;
 }
 
 nav a {
@@ -55,6 +55,7 @@ nav a:current-menu-item {
     color: rgb(255, 122, 144);
     border-bottom: 4px solid rgb(255, 122, 144);
 }
+
 /* INDEX/HOME -> joao */
 
 .intro {
@@ -66,5 +67,78 @@ nav a:current-menu-item {
 
 
 /* WORKS -> alice */
+
+.card-grid {
+  display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    /* margin: 15px; */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  background-color: #f1f1f1;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items:baseline;
+  /* margin-bottom: -60px;  */
+  
+}
+
+.row {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.col-1 {
+  flex: 1;
+  background-color: black;
+  padding: 0 0 0 2rem;
+}
+
+.col-2 {
+  flex: 3;
+  background-color: #e9b1b1;
+  padding: 0 2rem 0 2rem;
+}
+
+.episode {
+  padding: 0 2rem 0 2rem;
+  
+  /* line-height:0px; */
+  /* margin-top: -40px; */
+  
+  background-color: black;
+}
+
+.episode-number {
+  font-size: 2.4rem;
+  color: white;
+}
+
+.info {
+  padding: 2rem 2rem;
+  text-align: left;
+}
+
+.card-body {
+  padding: 0 2rem 2rem 2rem;
+  /* margin-top: -30px; */
+}
+
+.title {
+  font-size: 1.4rem;
+  /* line-height: 0%; */
+}
+
+.description {
+  font-size: 0.9rem;
+  text-align: left;
+}
 
 /* GALLERY -> alice */
