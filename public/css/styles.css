@@ -64,22 +64,6 @@ nav a:current-menu-item {
 
 /* ABOUT -> joao */
 
-.about-container{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-}
-.about-images {
-  
-}
-
-.move-slide-arrow{
-
-}
-
-.hidden {
-    display:none;
-}
 
 /* WORKS -> alice */
 
