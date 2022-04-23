@@ -5,6 +5,7 @@ const app = express();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'hbs');
+hbs.registerPartials(__dirname + '/views/partials')
 
 
 app.use(express.static ('public'));
@@ -24,6 +25,12 @@ app.get('/about', (request, response) => {
 app.get('/works', (request, response) =>  {
 
     response.render('works');
+
+})
+
+app.get('/gallery', (request, response) =>  {
+
+    response.render('gallery');
 
 })
 

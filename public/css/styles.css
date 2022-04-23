@@ -2,7 +2,7 @@ body {
   background-color: aquamarine;
   font-size: 16px;
   font-family: "Helvetica", sans-serif;
-  padding: 0;
+  padding: 2rem 6rem;
   margin: 0;
 }
 
@@ -12,10 +12,49 @@ h1 {
 
 /* NAV -> alice */
 
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
+
 nav {
   align-items: center;
 }
 
+nav ul {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav li {
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: black;
+    
+}
+
+nav a:hover {
+    border-bottom: 4px solid black;
+}
+
+nav a:current-menu-item {
+    color: rgb(255, 122, 144);
+    border-bottom: 4px solid rgb(255, 122, 144);
+}
 /* INDEX/HOME -> joao */
 
 .intro {
@@ -27,4 +66,4 @@ nav {
 
 /* WORKS -> alice */
 
-/* GALLERY -> alice*/
+/* GALLERY -> alice */
