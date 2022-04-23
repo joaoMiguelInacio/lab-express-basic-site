@@ -64,6 +64,21 @@ nav a:current-menu-item {
 
 /* ABOUT -> joao */
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-images {
+    height: 300px;
+    width: 500px;
+}
+
+.move-slide-button{
+    border: 0;
+    background: none;
+}
 
 /* WORKS -> alice */
 

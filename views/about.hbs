@@ -1,55 +1,37 @@
   {{> navigation}}
 
   <div class="container">
-    <div class="mySlides">
+    <button class="move-slide-button" onclick="plusDivs(-1), clearTimeOut ()">&#10094;</button>
+
+    <div class="my-slides">
       <img class = "about-images"  src="https://www.askideas.com/media/49/Baby-Mr-Bean-On-Hand-Funny-Image.jpg" alt="Baby Mr. Bean">
       <h2><b>Birthday</b></h2>
       <p>15 September 1956 👶</p>
     </div>
-    <div class="mySlides">
+    <div class="my-slides">
       <iframe  class = "about-images" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2475.4709486559!2d-0.04095088422471579!3d51.651213279658975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761faf7a104991%3A0x7188a219234e7350!2s2%2C%2012%20Arbour%20Rd%2C%20Enfield%20EN3%207TX!5e0!3m2!1sen!2suk!4v1650730762029!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <h2>Location</h2>
       <p>Flat 2, 12 Arbour Road, London ☔</p>
     </div>
-    <div class="mySlides">
+    <div class="my-slides">
       <img  class = "about-images" src="https://pbs.twimg.com/media/CGUo5PBWwAAEvpL.jpg" alt="Irma Gobb">
       <h2>Relationships</h2>
       <p>Irma Gobb, actually not his sister &#129327;</p>
     </div>
-    <div class="mySlides">
+    <div class="my-slides">
       <img  class = "about-images" src="https://anthonybalduccisjournal.files.wordpress.com/2016/01/8ac96-32bteddy2bbear2bmr-2bbean2band2bteddy-3.jpg" alt="TEDDY">
       <h2>Friends</h2>
       </p>Teddy, Rupert, Hubert, Sabine and Stepan 🐻 &#128147;</p>
     </div>
-    <div class="mySlides">
+    <div class="my-slides">
       <img class = "about-images" src="https://imagevars.gulfnews.com/2015/9/5/1_16a08336188.1578608_1999272677_16a08336188_large.jpg" alt="ENEMIES">
       <h2>Enemies</h2>
-      <p>Mrs. Wicket, Scrapper, The Thieves were some of Mr. Bean's enemies but nothing was a threat to his life as the man himself!🤦‍♂️😵</p>
+      <p>Nothing was a threat to his life as the man himself!🤦‍♂️😵</p>
     </div>
   
-    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    
+    <button class="move-slide-button" onclick="plusDivs(1), clearTimeOut ()">&#10095;</button>
   </div>
 
+  <script src="/js/about.js"></script>
 
-<script>
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-
-</script>
