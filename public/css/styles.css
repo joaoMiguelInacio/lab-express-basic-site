@@ -14,16 +14,16 @@ h1 {
 /* NAV -> alice */
 
 .navbar {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 4rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
 .logo {
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 
 nav {
@@ -31,30 +31,29 @@ nav {
 }
 
 nav ul {
-    display:flex;
-    flex-direction: row;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 nav li {
-    padding-right: 2rem;
+  padding-right: 2rem;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: black;
-    
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: black;
 }
 
 nav a:hover {
-    border-bottom: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 nav a:current-menu-item {
-    color: rgb(255, 122, 144);
-    border-bottom: 4px solid rgb(255, 122, 144);
+  color: rgb(255, 122, 144);
+  border-bottom: 4px solid rgb(255, 122, 144);
 }
 
 /* INDEX/HOME -> joao */
@@ -67,73 +66,68 @@ nav a:current-menu-item {
 /* ABOUT -> joao */
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-images {
-    height: 300px;
-    width: 500px;
+  height: 300px;
+  width: 500px;
 }
 
-.move-slide-button{
-    border: 0;
-    background: none;
+.move-slide-button {
+  border: 0;
+  background: none;
 }
 
-/* WORKS -> alice */
+/* WORKS/EPISODE GUIDE -> alice */
 
 .card-grid {
   display: grid;
-    grid-template-columns: repeat( 4, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    /* margin: 15px; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   background-color: #f1f1f1;
 }
 
 .card-header {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
-  align-items:baseline;
-  /* margin-bottom: -60px;  */
-  
+  align-items: baseline;
 }
 
 .row {
   display: flex;
   margin-bottom: 2rem;
+  height: 35%;
 }
 
 .col-1 {
   flex: 1;
-  background-color: black;
-  padding: 0 0 0 2rem;
+  background-color: #FF7B7B;
 }
 
 .col-2 {
-  flex: 3;
-  background-color: #e9b1b1;
+  flex: 4;
+  background-color: black;
   padding: 0 2rem 0 2rem;
 }
 
 .episode {
   padding: 0 2rem 0 2rem;
-  
-  /* line-height:0px; */
-  /* margin-top: -40px; */
-  
+  line-height:0px;
   background-color: black;
 }
 
 .episode-number {
+  text-align: center;
   font-size: 2.4rem;
+  line-height: 0%;
   color: white;
 }
 
@@ -144,12 +138,19 @@ nav a:current-menu-item {
 
 .card-body {
   padding: 0 2rem 2rem 2rem;
-  /* margin-top: -30px; */
 }
 
 .title {
-  font-size: 1.4rem;
-  /* line-height: 0%; */
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.aired {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 0%;
+  font-weight:200;
 }
 
 .description {

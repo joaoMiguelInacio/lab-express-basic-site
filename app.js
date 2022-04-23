@@ -116,7 +116,7 @@ app.get('/about', (request, response) => {
 
 })
 
-app.get('/works', (request, response) =>  {
+app.get('/episode-guide', (request, response) =>  {
     const data = {episodes: episodes};
     response.render('works', data);
 
