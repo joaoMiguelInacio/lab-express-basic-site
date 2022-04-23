@@ -1,24 +1,83 @@
-
+   
     <h1>Mr. Bean</h1>
 
-    <h2>Birthday</h2>
-    <p>15 September 1956 (age 65)</p>
+    <div class="container">
+    <div class="mySlides">
+        <img  src="." alt="CALENDAR">
+        <h2><b>Birthday</b></h2>
+        <p>15 September 1956</p>
+    </div>
+    <div class="mySlides">
+        <img src="." alt="GOOGLEMAPS">
+        <h2>Location</h2>
+        <p>Flat 2, 12 Arbour Road, London</p>
+    </div>
+    <div class="mySlides">
+        <img src="." alt="SISTER">
+        <h2>Relationships</h2>
+        <p>Irma Gobb</p>
+    </div>
+    <div class="mySlides">
+        <img src="." alt="TEDDY">>
+        <h2>Friends</h2>
+        <p>Teddy, Rupert, Hubert, Mrs. Wicket (occasionally), Sabine, Stepan</p>
+    </div>
+    <div class="mySlides">
+        <img src="." alt="ENEMIES">
+        <h2>Enemies</h2>
+        <p>Mrs. Wicket (usually), Scrapper, The Thieves, Restaurant Owner, The Chef, Religant Robin</p>
+    </div>
+    <div>
+        <div style="width:80%">
+            <div onclick="plusDivs(-1)">&#10094;</div>
+            <div onclick="plusDivs(1)">&#10095;</div>
+            <span onclick="currentDiv(1);resetTimeOut ()"></span>
+            <span onclick="currentDiv(2);resetTimeOut ()"></span>
+            <span onclick="currentDiv(3);resetTimeOut ()"></span>
+            <span onclick="currentDiv(4);resetTimeOut ()"></span>
+            <span onclick="currentDiv(5);resetTimeOut ()"></span>
+        </div>
+    </div>
 
-    <h2>Location</h2>
-    <p>Flat 2, 12 Arbour Road, London</p>
+<script>
+    
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
-    <h2>Relationships</h2>
-    <p>Irma Gobb</p>
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
 
-    <h2>Friends</h2>
-    <p>
-      Teddy, Irma Gobb, Rupert, Hubert, Mrs. Wicket (occasionally), Sabine,
-      Stepan
-    </p>
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
 
-    <h2>Enemies</h2>
-    <p>
-      Mrs. Wicket (usually), Scrapper, The Thieves, Restaurant Owner, The Chef,
-      Religant Robin
-    </p>
+    var slideIndex = 0;
 
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        var myTimeout = setTimeout(carousel, 10000);
+        setInterval(console.log(myTimeout),1000)
+    }
+    
+    function resetTimeOut () {
+        myTimeout = 0;
+    }
+    
+</script>
