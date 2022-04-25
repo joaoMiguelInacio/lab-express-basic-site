@@ -1,5 +1,7 @@
 if (window.location.pathname === "/"){
     document.getElementById("home").classList.add("current-menu-item");
+    document.getElementById("logo").style.display = "none";
+    document.getElementById("navbar").style.marginBottom = "0px";
 }
 
 if (window.location.pathname === "/about"){
