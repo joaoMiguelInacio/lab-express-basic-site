@@ -6,7 +6,7 @@ const episodes = [
         episode: 1,
         title: "Going Live!",
         aired: "1 January 1990",
-description: "Mr. Bean attends a maths exam, during which he tries to copy from a student (Paul Bown) under the nose of the invigilator (Rudolph Walker); he surreptitiously changes into his swimming trunks so as not to be noticed by someone nearby (Roger Sloman); and he struggles to stay awake during a church service, much to the annoyance of the man sitting next to him, Mr. Sprout (Richard Briers)."
+        description: "Mr. Bean attends a maths exam, during which he tries to copy from a student (Paul Bown) under the nose of the invigilator (Rudolph Walker); he surreptitiously changes into his swimming trunks so as not to be noticed by someone nearby (Roger Sloman); and he struggles to stay awake during a church service, much to the annoyance of the man sitting next to him, Mr. Sprout (Richard Briers)."
     },
     {
         episode: 2,
