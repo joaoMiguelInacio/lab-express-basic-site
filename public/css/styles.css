@@ -51,7 +51,7 @@ nav a:hover {
   border-bottom: 4px solid black;
 }
 
-nav a:current-menu-item {
+.current-menu-item {
   color: rgb(255, 122, 144);
   border-bottom: 4px solid rgb(255, 122, 144);
 }
