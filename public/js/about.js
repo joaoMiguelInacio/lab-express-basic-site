@@ -1,5 +1,5 @@
 let slideIndex = 1,
-    arrayOfSlides = document.getElementsByClassName("my-slides"),
+    arrayOfSlides = document.getElementsByClassName("about-slides"),
     myTimeout;
 
 showDivs(slideIndex);
