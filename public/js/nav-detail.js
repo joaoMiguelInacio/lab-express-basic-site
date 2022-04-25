@@ -1,6 +1,6 @@
 if (window.location.pathname === "/"){
     document.getElementById("home").classList.add("current-menu-item");
-    document.getElementById("logo").style.display = "none";
+    document.getElementById("logo").src = "/images/mr-bean-logo-index.png";
     document.getElementById("navbar").style.marginBottom = "0px";
 }
 
