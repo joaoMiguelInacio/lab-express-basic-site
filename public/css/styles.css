@@ -48,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid;
 }
 
 .current-menu-item {

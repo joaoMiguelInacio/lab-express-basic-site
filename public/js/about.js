@@ -27,10 +27,10 @@ function carousel() {
   slideIndex++;
   if (slideIndex > arrayOfSlides.length) {slideIndex = 1}
   arrayOfSlides[slideIndex-1].style.display = "block";
-  myTimeout = setTimeout(carousel, 8000);
+  myTimeout = setTimeout(carousel, 15000);
 }
 
 function clearTimeOut () {
   window.clearTimeout(myTimeout);
-  myTimeout = setTimeout(carousel, 8000);
+  myTimeout = setTimeout(carousel, 15000);
 }
