@@ -92,14 +92,14 @@ const episodes = [
         aired:"15 December 1995",
         description: "It is raining, so Bean ventures into his loft with Teddy to find an umbrella. As he shifts through his stored items, he begins to reminisce his past adventures, including his dental appointment, the church service, and the time his Mini was crushed by a tank."
     },
-]
+];
 
 
 const app = express();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'hbs');
-hbs.registerPartials(__dirname + '/views/partials')
+hbs.registerPartials(__dirname + '/views/partials');
 
 
 app.use(express.static ('public'));
@@ -108,24 +108,24 @@ app.get('/', (request, response) => {
 
     response.render('index');
 
-})
+});
 
 app.get('/about', (request, response) => {
 
     response.render('about');
 
-})
-
+});
+ 
 app.get('/episode-guide', (request, response) =>  {
     const data = {episodes: episodes};
     response.render('works', data);
 
-})
+});
 
 app.get('/gallery', (request, response) =>  {
 
     response.render('gallery');
 
-})
+});
 
 app.listen(3000, () => console.log('Listening in port 3000'));
