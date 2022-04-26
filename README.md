@@ -1,6 +1,4 @@
-# Done with [Alice](https://github.com/alice101001011).
-
-# Express basic website
+# Bulding an Express basic website with [Alice](https://github.com/alice101001011)
 
 ## Introduction
 
