@@ -6,37 +6,37 @@ const episodes = [
         episode: 1,
         title: "Going Live!",
         aired: "1 January 1990",
-        description: "Mr. Bean attends a maths exam, during which he tries to copy from a student (Paul Bown) under the nose of the invigilator (Rudolph Walker); he surreptitiously changes into his swimming trunks so as not to be noticed by someone nearby (Roger Sloman); and he struggles to stay awake during a church service, much to the annoyance of the man sitting next to him, Mr. Sprout (Richard Briers)."
+        description: "Mr. Bean attends a maths exam, during which he tries to copy from a student under the nose of the invigilator; he surreptitiously changes into his swimming trunks so as not to be noticed by someone nearby; and he struggles to stay awake during a church service, much to the annoyance of the man sitting next to him, Mr. Sprout."
     },
     {
         episode: 2,
         title: "The Return of Mr. Bean",
         aired: "5 November 1990",
-        description: "Bean busks to pay a busker (Dave O'Higgins), tries out his new credit card in a department store, visits a restaurant and is served an unwanted dish, leading him to try a variety of strategies to avoid eating it, and then has an unfortunate altercation with Queen Elizabeth The Queen Mother.[2]"
+        description: "Bean busks to pay a busker, tries out his new credit card in a department store, visits a restaurant and is served an unwanted dish, leading him to try a variety of strategies to avoid eating it, and then has an unfortunate altercation with Queen Elizabeth The Queen Mother."
     },
     {
         episode: 3,
         title: "The Curse of Mr. Bean",
         aired:"30 December 1990",
-        description: "Bean visits the local swimming pool where he realises that he is scared of diving, tries to find a way to leave the car park without paying, makes a sandwich in the park sitting next to Angus Deayton, jumps a traffic light in his car by getting out and pushing it and then takes his girlfriend (Matilda Ziegler) to watch a scary movie at the cinema."
+        description: "Bean visits the local swimming pool where he realises that he is scared of diving, tries to find a way to leave the car park without paying, makes a sandwich in the park sitting next to Angus Deayton, jumps a traffic light in his car by getting out and pushing it and then takes his girlfriend to watch a scary movie at the cinema."
     },
     {
         episode: 4,
         title: "Mr. Bean Goes to Town",
         aired:"15 October 1991",
-        description: "Bean buys a new portable television but seems to be having difficulty getting a good reception. He then has his camera stolen in the park and later finds a unique way of identifying the culprit (Nick Hancock). After leaving his shoe on top of a car, Bean finds himself hopping around town to retrieve it. Later, he finds a novel use of a photo booth and then takes his girlfriend to see a magic show and have a dance at the disco."
+        description: "Bean buys a new portable television but seems to be having difficulty getting a good reception. He then has his camera stolen in the park and later finds a unique way of identifying the culprit. After leaving his shoe on top of a car, Bean finds himself hopping around town to retrieve it."
     },
     {
         episode: 5,
         title: "The Trouble with Mr. Bean",
         aired:"1 January 1992",
-        description: "Bean wakes up late and has to drive to his dental appointment on the other side of town while dressing and brushing his teeth. His appointment progresses badly after he manages to anesthetize the dentist (Richard Wilson). Later, he tries to help a young boy with his remote control boat, but sending an electric wheelchair out of control. He then tries and fails to have a picnic without being pestered by wasps. Meanwhile a man tries to steal his car."
+        description: "Bean wakes up late and has to drive to his dental appointment on the other side of town while dressing and brushing his teeth. His appointment progresses badly after he manages to anesthetize the dentist. Later, he tries to help a young boy with his remote control boat, but sending an electric wheelchair out of control."
     },
     {
         episode: 6,
         title: "Mr. Bean Rides Again",
         aired:"17 February 1992",
-        description: "Bean tries to save a man suffering from a heart attack, but when the ambulance arrives, Bean uses it to jump start his car, inadvertently disabling the ambulance. Later, he tries to post a letter and ends up getting locked inside a post box. Bean then packs for a holiday, suffers a noisy laughing man (Stephen Frost) on a train journey and then has to find a way to entertain a sick boy on a plane."
+        description: "Bean tries to save a man suffering from a heart attack, but when the ambulance arrives, Bean uses it to jump start his car, inadvertently disabling the ambulance. Later, he tries to post a letter and ends up getting locked inside a post box. Bean then packs for a holiday, suffers a noisy laughing man on a train journey and then has to find a way to entertain a sick boy on a plane."
     },
     {
         episode: 7,
@@ -48,13 +48,13 @@ const episodes = [
         episode: 8,
         title: "Mr. Bean in Room 426",
         aired:"17 February 1993",
-        description: "Bean treats himself to a weekend in a hotel and seeks competition with his hotel neighbour. After he eats some spoiled oysters, he has a nightmare about them and his neighbour. With his stomach turning, he goes outside of his room to complain to the other neighbour (who is playing very loud music), but is locked out and naked. All in all, all hell breaks loose, ending with a certain someone's bottom on show..."
+        description: "Bean treats himself to a weekend in a hotel and seeks competition with his hotel neighbour. After he eats some spoiled oysters, he has a nightmare about them and his neighbour. With his stomach turning, he goes outside of his room to complain to the other neighbour, but is locked out and naked. All in all, all hell breaks loose."
     },
     {
         episode: 9,
         title: "Do-It-Yourself Mr. Bean",
         aired:"10 January 1994",
-        description: "It is the end of 1993, and Bean is hosting a New Year's Eve party with his unique style of fun. However, it is not long before his guests discover that there is more fun to be had at the flat next door and devise a way of tricking Bean into letting them go. The following morning, Bean buys a large recliner at the January Sales and attempts a unique way of driving it home, then tries a spot of DIY and starts off the new year with a bang."
+        description: "It is the end of 1993, and Bean is hosting a New Year's Eve party with his unique style of fun. However, it is not long before his guests discover that there is more fun to be had at the flat next door and devise a way of tricking Bean into letting them go. The following morning, Bean buys a large recliner at the January Sales and starts off the new year with a bang."
     },
     {
         episode: 10,
