@@ -82,7 +82,7 @@ Is there even a limit to what one can do with JavaScript and still make it look 
 </div>
 ```
 
-If you are curious or just a fellow :nerd_face:, check the full code responsible for flipping the cards [here](https://github.com/joaoMiguelInacio/lab-express-basic-site/blob/master/public/js/about.js)!
+If you are curious or just a fellow :nerd_face:, check the full code responsible for flipping the cards [here](https://github.com/joaoMiguelInacio/lab-express-basic-site/blob/master/public/js/episode-cards.js)!
 
 
 ![](/public/images/mr-bean-website-page3.png)
